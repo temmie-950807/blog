@@ -19,6 +19,7 @@ name = "temmie"
 image = "author.png"
 headline = "Wee"
 bio = "abc"
+email = "kapoo950807@gmail.com"
 links = [
   # { facebook = "https://www.facebook.com/temmieowowo/" },
   # { twitter = "https://twitter.com/username" }
@@ -26,7 +27,7 @@ links = [
 
 # [params.author]
 #   name = "Your name here"
-#   email = "youremail@example.com"
+  # email = "youremail@example.com"
 #   image = "img/blowfish_logo.png"
 #   imageQuality = 96
 #   headline = "I'm only human"
