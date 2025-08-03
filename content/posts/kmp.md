@@ -32,7 +32,7 @@ KMP（Knuth–Morris–Pratt algorithm）為一個字串匹配演算法，本文
 
 對於字串 \(S\)，定義函數 \(\pi(i)\) 為它長度為 \(i\) 的前綴的最長共同前後綴。
 
-\(S = BABCBABA\) 舉例，它所有的 pi(i) 如下圖：
+\(S = BABCBABA\) 舉例，它所有的 \(\pi(i)\) 如下圖：
 
 ![](kmp/kmp2.png)
 
