@@ -16,7 +16,7 @@ title = "CP blog"
 
 [params.author]
 name = "temmie"
-image = "img/author.png"
+image = "author.png"
 headline = "Wee"
 bio = "abc"
 links = [
