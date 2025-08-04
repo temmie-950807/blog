@@ -19,6 +19,7 @@ enableEmoji = true
 googleAnalytics = "G-90LLS53R1M"
 
 math = true
+hasCJKLanguage = true
 
 [pagination]
   pagerSize = 100
