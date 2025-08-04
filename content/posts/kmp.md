@@ -2,10 +2,9 @@
 date = '2025-08-03T21:40:44+08:00'
 draft = false
 title = 'KMP 演算法'
-tag = ["string"]
 +++
 
-<!-- {{< katex >}} -->
+{{< katex >}}
 
 > [!INFO] 先備知識與說明
 > - \(a+b\) 代表字串 \(a\) 和字串 \(b\) 的相接

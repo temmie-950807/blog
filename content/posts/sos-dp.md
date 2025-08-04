@@ -2,7 +2,6 @@
 date = '2025-08-04T02:51:54+08:00'
 draft = false
 title = 'SOS DP'
-tag = ["dp"]
 +++
 
 {{< katex >}}
