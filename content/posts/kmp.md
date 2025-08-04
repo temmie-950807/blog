@@ -76,7 +76,7 @@ KMP（Knuth–Morris–Pratt algorithm）為一個字串匹配演算法，本文
 定義 \(\pi(1) = 0\)。令 \(p = \pi(i-1)\)，若 \(S[p+1] = S[i]\)，則 \(\pi(i) = p+1\)，否則若 \(p=0\)，則結束，否則令 \(p = \pi(p)\)。
 
 ### 匹配字串
-最後，到了我們的重頭戲：將 \(S\) 與 \(T\) 匹配。我們令 \(P = T + '\#' + S\)，其中 \('\#'\) 為一個在 \(S\) 跟 \(T\) 都沒有出現過。
+最後，到了我們的重頭戲：將 \(S\) 與 \(T\) 匹配。我們令 \(P = T + '\#' + S\)，其中 \('\#'\) 為一個在 \(S\) 跟 \(T\) 都沒有出現過的字元。
 
 那麼對 \(P\) 計算所有 \(\pi\) 的值，若位於 \(S\) 的部分的 \(\pi\) 值為 \(|T|\)，則代表匹配成功，其原因即為 \(\pi\) 函數的定義：
 
@@ -138,7 +138,7 @@ vector<int> prefix_function(string s) {
 
 ## 例題
 
-### 一、[String Functions](https://cses.fi/problemset/result/13800075/)
+### 一、[String Functions](https://cses.fi/problemset/task/2107/)
 
 裸題，同上述實作方法。
 
