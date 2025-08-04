@@ -2,9 +2,10 @@
 date = '2025-08-04T02:51:54+08:00'
 draft = false
 title = 'SOS DP'
+tag = ["dp"]
 +++
 
-<!-- {{< katex >}} -->
+{{< katex >}}
 
 這篇文章都是在解決一道問題：給定 $arr$，求 $dp[mask] = \sum\limits_{i \subseteq mask} arr[i]$，其中 $i$ 跟 $mask$ 都是一個集合，其中宇集為 $N$ 個元素的集合。之後的內容我們都用一個 $N$-bit 的二進位表達集合的概念。
 
