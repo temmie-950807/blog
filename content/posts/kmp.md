@@ -4,7 +4,7 @@ draft = false
 title = 'KMP 演算法'
 +++
 
-{{< katex >}}
+<!-- {{< katex >}} -->
 
 > [!INFO] 先備知識與說明
 > - \(a+b\) 代表字串 \(a\) 和字串 \(b\) 的相接
